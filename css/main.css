@@ -9,11 +9,14 @@ html {
 
 div {
   text-align: center;
-  display: block;
-  margin: 1em;
+  padding: 0;
 }
 
 .btn {
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+  display: inline-block;
   font-size: 1.125rem;
   text-decoration: none;
   border-radius: 8px;
@@ -21,48 +24,26 @@ div {
   margin: .5em;
 }
 
-.btn-small a {
+.btn-small {
   font-size: .875rem;
 }
 
-.btn-big a {
+.btn-big {
   font-size: 1.5rem;
-}
-
-.btn {
-  color: #fff;
-  background-color: #333;
-}
-
-.btn:hover {
-  background-color: #000;
-}
-
-.btn-ghost {
-  border: 3px solid #333;
-  color: #333;
-}
-
-.btn-ghost:hover {
-  background-color: #666;
-  color: #fff;
-  border-color: #666;
 }
 
 .btn-subtle {
   background-color: #ccc;
-  color: #fff;
 }
 
-.btn-subtle:hover {
-  background-color: #666;
+.btn-ghost {
+  color: #333;
+  background-color: #fff;
+  border-color: #333;
+  border-width: 3px;
+  border-style: solid;
 }
 
 .btn-warning {
   background-color: #f33;
-  color: #fff;
-}
-
-.btn-warning:hover {
-  background-color: #933;
 }

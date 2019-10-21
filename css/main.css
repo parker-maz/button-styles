@@ -35,12 +35,10 @@ div {
 }
 
 .btn-ghost {
-  padding: .5em;
   color: #333;
   background-color: #fff;
   border-color: #333;
   border-width: 3px;
-  border-style: solid;
 }
 
 .btn-warning {
